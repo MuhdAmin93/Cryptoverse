@@ -37,6 +37,10 @@ const Homepage = () => {
         <Title level={2} className='home-title'>Latest Crypto News</Title>
         <Title level={3} className='show-more'><Link to="/news">Show More</Link></Title>
       </div>
+      <div className='home-heading-container'>
+        <Title level={2} className='home-title'>Latest Crypto Transaction</Title>
+        <Title level={3} className='show-more'><Link to="/transaction">Show More</Link></Title>
+      </div>
       <News simplified />
     </>
   )
